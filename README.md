@@ -1,7 +1,7 @@
-##🌍 World GDP - ETL Pipeline
+## 🌍 World GDP - ETL Pipeline
 This project is a complete ETL (Extract, Transform, Load) pipeline that gathers GDP data of countries from a Wikipedia archive. It automates the process of data collection, cleans the currency formatting, converts the scale, and stores the results in multiple formats.
 
-##🛠️ Project Architecture
+## 🛠️ Project Architecture
 Stage,Function,Description
 Extract,extract(),Scrapes the archived Wikipedia page using BeautifulSoup.
 Transform,transform(),Converts USD Millions (string) to USD Billions (float) and rounds to 2 decimal places.
